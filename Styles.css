@@ -1,0 +1,37 @@
+/********** Template CSS **********/
+:root {
+    --primary: #f69050;
+    --light: #F0FBFC;
+    --light: #f0e4de;
+    --dark: #181d38;
+}
+
+.btn {
+    background-color: #fb873f;
+    border: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary);
+}
+
+.btn:hover a {
+    color: var(--primary) !important;
+}
+
+.btn-light {
+    background-color: var(--light);
+}
+
+.btn-light:hover {
+    background: transparent;
+    color: var(--light) !important;
+    border: 1px solid var(--light);
+}
